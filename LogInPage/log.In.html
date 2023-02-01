@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LearnersBrain</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/f5ebf42d23.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/Brain.png" type="image/png">
+    <link rel="stylesheet" href="style-for-log-in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/f5ebf42d23.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url(OIP.png); background-repeat: no-repeat; background-size: 100%;">
+    <p class="lee">LearnersBrain</p>
+    <a class="togo" href="/index.html">Home</a>
+    <a class="hachi" href="/Contact-Us-button/contact-us.html">Contact Us</a>
+    <a class="hach" href="/Pricing-Tutor/pricing-tutor.html">Pricing</a>
+    <a class="hac" href="/About-Us/about-us.html">About Us</a>
+    <a class="ha" href="/Language-comp/language.html">Tutorials</a>
+    <a class="h" href="/Search-bar-web/search-bar.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+    <button class="no"><span class="inside"><i class="fa-solid fa-bars-staggered"></i></span></i></button>
+    <div class="error"></div>
+    <form id="form" action="/" method="post" name="form_user">
+        <p class="email">Sign In</p>
+        <button class="hi100"><i class="fa-regular fa-envelope"></i></button>
+        <input name="emial" required type="email" id="name_of_user" class="Input" type="text" placeholder="e.g connectwithujval@gmail.com">
+        <div id="email_error" class="podair">Please Enter The Eamil Address</div>
+        <p class="pass">Password</p>
+        <button class="hi1000"><i class="fa-solid fa-lock"></i></button>
+        <input id="password" required type="password" class="Input1" maxlength="15" type="text" placeholder="e.g 12&90Bg"><br>
+        <div id="pass_error" class="padair">Please Enter The Password</div>
+        <div><input class="hi10000" type="checkbox" name="rem" id="reme" onclick="myFunction()"/>
+        <p id="text1000" style="display:none">Checkbox is CHECKED!</p>
+        <p class="hop">Remember Me</p> 
+        <a class="hpo" href="/Forg-pass/forg-pass.html">Forgot Your Password?</a></div>
+        <button onclick="myfun()" id="sub" type="submit" class="oph">Log In</button>
+    </form>
+    <script>
+        let email_of_user = document.getElementById('name_of_user');
+        let password_of_user = document.getElementById('password');
+        let log_in_user_and_password = document.getElementById('sub');
+
+        function myfun(){
+            if(password_of_user > 15){
+                alert("The Password's Lenght Is Greater Than 15");
+            }
+        }
+    </script>
+</body>
+</html>
