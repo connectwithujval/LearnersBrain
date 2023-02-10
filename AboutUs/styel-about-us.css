@@ -1,0 +1,104 @@
+.eight{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.eight:hover{
+   color: rgb(235, 235, 235);
+}
+.togo{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 5px;
+    margin-left: 460px;
+    display: inline-block;
+}
+.togo:hover{
+    color: rgb(235, 235, 235);
+}
+.hachi{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.hachi:hover{
+    color: rgb(235, 235, 235);
+}
+.hach{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.hach:hover{
+    color: rgb(235, 235, 235);
+}
+.hac{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.hac:hover{
+    color: rgb(235, 235, 235);
+}
+.ha{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.ha:hover{
+    color: rgb(235, 235, 235);
+}
+.h{
+    color: white;
+    margin-left: 50px;
+}
+.h:hover{
+    color: rgb(235, 235, 235);
+}
+.no{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nom{
+    color: white;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    margin-left: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+.nomo{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    margin-left: 530px;
+    font-family: 'Roboto', sans-serif;
+}
+.nomom{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    margin-left: 700px;
+    font-family: 'Roboto', sans-serif;
+}
