@@ -1,0 +1,101 @@
+.nine{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+}
+.nine:hover{
+    color: rgb(235, 235, 235);
+}
+.fourteen{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 5px;
+    margin-left: 460px;
+    display: inline-block;
+}
+.fourteen:hover{
+    color: rgb(235, 235, 235);
+}
+.fifteen{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.fifteen:hover{
+    color: rgb(235, 235, 235);
+}
+.sixteen{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.sixteen:hover{
+    color: rgb(235, 235, 235);
+}
+.seventeen{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+.seventeen:hover{
+    color: rgb(235, 235, 235);
+}
+.twentyone{
+    color: white;
+    margin-left: 50px;
+}
+.twentyone:hover{
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.twentytwo{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.inside{
+    font-size: 20px;
+    display: block;
+}
+.twentythree{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.twentyfour,
+.twentyfive,
+.twentysix,
+.twentyseven{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+.twentyfour{
+    margin-top: 220px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    margin-left: 300px;
+}
+.twentysix{
+    margin-top: 5px;
+    margin-left: 805px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
